@@ -19,5 +19,9 @@ steps:
 
 - script: |
     npm install
-    npm start
   displayName: 'npm install and start'
+
+- task: CmdLine@2 # npm start
+  inputs:
+    script: |
+      npm start
