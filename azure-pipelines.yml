@@ -9,7 +9,7 @@ trigger:
 #pool:
 #  vmImage: ubuntu-latest
 
-pool: Default
+pool: DevtoolPool
 
 steps:
 - task: NodeTool@0
