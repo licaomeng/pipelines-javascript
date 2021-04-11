@@ -12,7 +12,7 @@ trigger:
 pool: DevtoolPool
 
 variables:      # pipeline-level
-  CODE_BASE: ''
+  CODE_BASE: 'C:\pipelines-javascript'
 
 steps:
 - task: NodeTool@0
