@@ -20,3 +20,4 @@ steps:
 - script: |
     npm install
   displayName: 'npm install'
+  workingDirectory: 'C:\pipelines-javascript'
